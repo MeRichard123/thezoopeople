@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
           className="m-3 py-2 px-7 border-2 border-black mt-6 btn font-bold text-xl">
           Subscribe On Youtube
         </a>
-        <p className="font-bold tracking-widest text-xl mt-4">&copy; TheZooPeople | 2021</p>
+        <p className="font-bold tracking-widest text-xl mt-4">&copy; TheZooPeople | {new Date().getFullYear()}</p>
         <p>Web Design Heavily Inspired by WhiteP4nth3r</p>
       </footer>
   </main>
